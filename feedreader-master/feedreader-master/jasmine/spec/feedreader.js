@@ -49,7 +49,7 @@ $(function() {
                 expect(allFeeds[i].name).toBeDefined();
                 expect(allFeeds[i].name).not.toBe('' || '' || "" || " ");
             }
-        })
+        });
     });
     
 
@@ -70,7 +70,7 @@ $(function() {
      it("check if the menu is hidden by defaut", function() {
          expect($("body").hasClass("menu-hidden")).toBe(true);
          //expect($(".menu-hidden").toBe(true));
-     })
+     });
      it('checks if menu changes from visible to hidden', function() {
          //double click, hide and unhide
          $('.menu-icon-link').dblclick();
@@ -79,7 +79,7 @@ $(function() {
          $('.menu-icon-link').click();
          expect($('body').hasClass('menu-hidden')).toEqual(false);
          
-     })
+     });
  });
          
         
@@ -102,7 +102,7 @@ $(function() {
         it('RSS feed contains a minimum of 1 entry', function() {
             var entryNumber =$('.entry').length;
             expect(entryNumber).toBeGreaterThan(1);
-        })
+        });
         
     });//end of initial enteries suite 
 
@@ -130,7 +130,7 @@ $(function() {
             second = $('.feed').html();
             expect(second).toBeDefined();
             expect(first).not.toEqual(second);// testing does-not equal statement
-        })// end of it
+        });// end of it
         
     });//end of new feed selection suite 
 }());
