@@ -14,3 +14,5 @@
 
 #If there are any errors , the Jasmine error page should load when reloading the webpage.
 #If no errors are found, the web page should load as normal and the test suite that have passed should be displayed at the bottom of the page under the Jasmine section. 
+
+<img src="http://g.recordit.co/vw960hqpyf.gif">
