@@ -70,8 +70,8 @@ $(function() {
             });
         });// end of beforeEach async function
         it('RSS feed contains a minimum of 1 entry', function() {
-            var entryNumber =$('.entry').length;
-            expect(entryNumber).toBeGreaterThan(1);
+            var entryNumber =$('.feed  .entry').length;
+            expect(entryNumber).toBeGreaterThan(0);
         });
         
     });//end of initial enteries suite 
